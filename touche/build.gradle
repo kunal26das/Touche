@@ -19,11 +19,34 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
+    implementation project(':common')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation 'androidx.core:core-ktx:1.3.1'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+
+    dependencies {
+        implementation 'androidx.core:core-ktx:1.3.1'
+        implementation 'androidx.appcompat:appcompat:1.1.0'
+        // Essentials
+        implementation 'androidx.essentials:list:1596945830977'
+        implementation 'androidx.essentials:events:1595854371850'
+        implementation 'androidx.essentials:backdrop:1596425185482'
+        implementation 'androidx.essentials:firebase:1597055511519'
+    }
+
+    dependencies {
+        // Material Design
+        implementation "com.google.android.material:material:1.3.0-alpha02"
+    }
 }

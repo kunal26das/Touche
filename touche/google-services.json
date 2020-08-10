@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "820077834380",
+    "firebase_url": "https://touche-84edf.firebaseio.com",
+    "project_id": "touche-84edf",
+    "storage_bucket": "touche-84edf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820077834380:android:5e8f58912ad14f6d374ba9",
+        "android_client_info": {
+          "package_name": "io.github.kunal26das.touche"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "820077834380-t76981e5od2vkavul5kqmlk599re5bbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.kunal26das.touche",
+            "certificate_hash": "0098c070dc2b8c040c1cd0ff2e6e4900896782ef"
+          }
+        },
+        {
+          "client_id": "820077834380-7ro844v1tbvgj7lmgnm23ad55sv4hhsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw2zaA_cMY-k4gIbkhEE036dGubpZx7uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "820077834380-7ro844v1tbvgj7lmgnm23ad55sv4hhsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
